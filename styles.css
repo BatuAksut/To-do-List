@@ -1,0 +1,109 @@
+body{
+    font-family: 'Wix Madefor Text', sans-serif;
+    text-align: center;
+    background-color: #e5e5e5;
+    color: #14213d;
+}
+
+p{
+    color:black;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+label{
+    font-size: 2rem;
+}
+
+input{
+    height: 1.5rem;
+    width: 20rem;
+    color: #14213d;
+}
+
+ul{
+    list-style-position: inside;
+}
+li{
+    transition: ease-in 2s;
+    font-size: 1.3rem;
+}
+li:hover{
+    opacity:1;
+    text-decoration: line-through;
+}
+button{
+    background-color: #14213d;
+    color:white;
+    font-size: 1rem;
+    border-radius: 28px;
+    padding: 3px 10px 3px 10px;
+    font-family: 'Wix Madefor Text', sans-serif;
+}
+button:hover{
+    background-color: #28395d;
+}
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; 
+    
+  }
+
+
+
+
+/* For Tablet View */
+@media screen and (min-device-width: 768px)
+    and (max-device-width: 1024px) {
+    h1 {
+        font-size: 10rem;
+    }
+    label{
+        font-size: 4rem;
+    }
+    button{
+        font-size: 2.3rem;
+    }
+    p{
+        font-size: 2rem;
+    }
+    input{
+        width: 30rem;
+        height: 2.5rem;
+        font-size: 2.3rem;
+    }
+
+    li{
+        font-size: 2.3rem;
+    }
+}
+
+@media screen and (max-device-width: 480px)
+    and (orientation: portrait){
+    h1 {
+        font-size: 10rem;
+    }
+    label{
+        font-size: 5rem;
+    }
+    button{
+        font-size: 3rem;
+    }
+    input{
+        width: 30rem;
+        height: 3.3rem;
+        font-size: 3rem;
+    }
+    p{
+        font-size: 2rem;
+    }
+
+    li{
+        font-size: 3rem;
+    }
+}
