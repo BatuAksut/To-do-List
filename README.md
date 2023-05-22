@@ -1,4 +1,5 @@
 # To-Do list
 
 Basic Javascript to-do list. 
-[I'm an inline-style link](https://www.google.com)
+
+[LIVE VERSION](https://basic-to-do-list-ba.netlify.app/)
